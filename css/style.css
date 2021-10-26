@@ -47,28 +47,43 @@ html::-webkit-scrollbar-thumb {
 }
 
 /* 1200px / 16px = 75em */
-@media (max-width: 75em) {
+/*@media (max-width: 75em) {
   html {
     font-size: 60%;
   }
 }
 
 /* 980px / 16px = 61.25em */
-@media (max-width: 61.25em) {
+/*@media (max-width: 61.25em) {
   html {
     font-size: 58%;
   }
 }
 
 /* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
+/*@media (max-width: 28.75em) {
   html {
     font-size: 55%;
   }
 }
+*/
 
 body {
   background: var(--bg);
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background: var(--main-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  letter-spacing: 0.2rem;
 }
 
 .header {
@@ -114,6 +129,7 @@ body {
 
 #menu-btn {
   display: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .header .search-form {
@@ -127,6 +143,10 @@ body {
   align-items: center;
   transform: scaleY(0);
   transform-origin: top;
+}
+
+.header .search-form.active {
+  transform: scaleY(1);
 }
 
 .header .search-form input {
@@ -152,11 +172,16 @@ body {
 .header .cart-items-container {
   position: absolute;
   top: 100%;
-  right: 0;
+  right: -100%;
   height: calc(100vh - 9.5rem);
   width: 35rem;
   background: #fff;
-  padding: 0 1, 5rem;
+  padding: 0 1.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.header .cart-items-container.active {
+  right: 0;
 }
 
 .header .cart-items-container .cart-item {
@@ -197,4 +222,58 @@ body {
 .header .cart-items-container .cart-item .content .price {
   font-size: 1.5rem;
   color: var(--main-color);
+}
+
+.header .cart-items-container .btn {
+  width: 100%;
+  text-align: center;
+}
+
+/* MEDIA QUERIES*/
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh -9.5rem);
+  }
+
+  .header .navbar.active {
+    right: 0;
+  }
+
+  .header .navbar a {
+    color: var(--black);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .header .search-form {
+    width: 90%;
+    right: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
 }
