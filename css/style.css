@@ -351,21 +351,21 @@ section {
   color: var(--black);
 }
 
-/* SALES QUERIES*/
+/* relics QUERIES*/
 
-.sales .box-container {
+.relics .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 
-.sales .box-container .box {
+.relics .box-container .box {
   text-align: center;
   border: var(--border);
   padding: 2rem;
 }
 
-.sales .box-container .box .icons a {
+.relics .box-container .box .icons a {
   height: 5rem;
   width: 5rem;
   line-height: 5rem;
@@ -375,44 +375,44 @@ section {
   margin: 0.3rem;
 }
 
-.sales .box-container .box .icons a:hover {
+.relics .box-container .box .icons a:hover {
   background: var(--main-color);
 }
 
-.sales .box-container .box .image {
+.relics .box-container .box .image {
   padding: 2.5rem 0;
 }
 
-.sales .box-container .box .image img {
+.relics .box-container .box .image img {
   height: 25rem;
 }
 
-.sales .box-container .box .content h3 {
+.relics .box-container .box .content h3 {
   color: #fff;
   font-size: 2.5rem;
 }
 
-.sales .box-container .box .content .stars {
+.relics .box-container .box .content .stars {
   padding: 1.5rem;
 }
 
-.sales .box-container .box .content .stars i {
+.relics .box-container .box .content .stars i {
   font-size: 1.7rem;
   color: var(--main-color);
 }
 
-.sales .box-container .box .content .price {
+.relics .box-container .box .content .price {
   color: #fff;
   font-size: 2.5rem;
 }
 
-.sales .box-container .box .content .price span {
+.relics .box-container .box .content .price span {
   text-decoration: line-through;
   font-weight: lighter;
   font-size: 1.5rem;
 }
 
-/* REVIEW QUERIES*/
+/* REVIEW SECTION*/
 
 .review .box-container {
   display: grid;
@@ -676,6 +676,9 @@ section {
   }
   .home .content p {
     font-size: 1.5rem;
+  }
+
+  .about .row .content .btn {
   }
 }
 
