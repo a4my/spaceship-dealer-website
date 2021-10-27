@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
 
 :root {
-  --main-color: #d3ad7f;
+  --main-color: #007e9f;
   --black: #13131a;
   --bg: #010103;
+  --white: #fff;
   --border: 0.1rem solid rgba(255, 255, 255, 0.2);
 }
 
@@ -42,7 +43,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #fff;
+  background: var(--white);
   border-radius: 5rem;
 }
 
@@ -78,7 +79,7 @@ section {
 
 .heading {
   text-align: center;
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   padding-bottom: 3.5rem;
   font-size: 4rem;
@@ -94,7 +95,7 @@ section {
   display: inline-block;
   padding: 0.9rem 3rem;
   font-size: 1.7rem;
-  color: #fff;
+  color: var(--white);
   background: var(--main-color);
   cursor: pointer;
 }
@@ -124,7 +125,7 @@ section {
 .header .navbar a {
   margin: 0 1rem;
   font-size: 1.6rem;
-  color: #fff;
+  color: var(--white);
 }
 
 .header .navbar a:hover {
@@ -134,7 +135,7 @@ section {
 }
 
 .header .icons div {
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
   font-size: 2.5rem;
   margin-left: 2rem;
@@ -153,7 +154,7 @@ section {
   position: absolute;
   top: 115%;
   right: 7%;
-  background: #fff;
+  background: var(--white);
   width: 50rem;
   height: 5rem;
   display: flex;
@@ -192,7 +193,7 @@ section {
   right: -100%;
   height: calc(100vh - 9.5rem);
   width: 35rem;
-  background: #fff;
+  background: var(--white);
   padding: 0 1.5rem;
   transition: all 0.3s ease-in-out;
 }
@@ -263,7 +264,7 @@ section {
 .home .content h3 {
   font-size: 6rem;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--white);
 }
 
 .home .content p {
@@ -298,7 +299,7 @@ section {
 
 .about .row .content h3 {
   font-size: 3rem;
-  color: #fff;
+  color: var(--white);
 }
 
 .about .row .content p {
@@ -327,13 +328,13 @@ section {
 }
 
 .ships .box-container .box h3 {
-  color: #fff;
+  color: var(--white);
   font-size: 2rem;
   padding: 1rem 0;
 }
 
 .ships .box-container .box .price {
-  color: #fff;
+  color: var(--white);
   font-size: 2.5rem;
   padding: 0.5rem 0;
 }
@@ -344,7 +345,7 @@ section {
 }
 
 .ships .box-container .box:hover {
-  background: #fff;
+  background: var(--white);
 }
 
 .ships .box-container .box:hover > * {
@@ -371,7 +372,7 @@ section {
   line-height: 5rem;
   font-size: 2rem;
   border: var(--border);
-  color: #fff;
+  color: var(--white);
   margin: 0.3rem;
 }
 
@@ -388,7 +389,7 @@ section {
 }
 
 .relics .box-container .box .content h3 {
-  color: #fff;
+  color: var(--white);
   font-size: 2.5rem;
 }
 
@@ -402,7 +403,7 @@ section {
 }
 
 .relics .box-container .box .content .price {
-  color: #fff;
+  color: var(--white);
   font-size: 2.5rem;
 }
 
@@ -448,7 +449,7 @@ section {
 .review .box-container .box h3 {
   padding: 1rem 0;
   font-size: 2rem;
-  color: #fff;
+  color: var(--white);
 }
 
 .review .box-container .box .stars i {
@@ -480,7 +481,7 @@ section {
 .contact .row form h3 {
   text-transform: uppercase;
   font-size: 3.5rem;
-  color: #fff;
+  color: var(--white);
 }
 
 .contact .row form .inputBox {
@@ -493,7 +494,7 @@ section {
 }
 
 .contact .row form .inputBox span {
-  color: #fff;
+  color: var(--white);
   font-size: 2rem;
   padding-left: 2rem;
 }
@@ -502,7 +503,7 @@ section {
   width: 100%;
   padding: 2rem;
   font-size: 1.7rem;
-  color: #fff;
+  color: var(--white);
   text-transform: none;
   background: none;
 }
@@ -542,7 +543,7 @@ section {
 .blogs .box-container .box .content .title {
   font-size: 2.5rem;
   line-height: 1.5;
-  color: #fff;
+  color: var(--white);
 }
 
 .blogs .box-container .box .content .title:hover {
@@ -579,7 +580,7 @@ section {
   width: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  color: #fff;
+  color: var(--white);
   border: var(--border);
   margin: 0.3rem;
   border-radius: 50%;
@@ -599,7 +600,7 @@ section {
 
 .footer .links a {
   padding: 0.7rem 2rem;
-  color: #fff;
+  color: var(--white);
   border: var(--border);
   font-size: 2rem;
 }
@@ -610,7 +611,7 @@ section {
 
 .footer .credit {
   font-size: 2rem;
-  color: #fff;
+  color: var(--white);
   font-weight: bold;
   padding: 1.5rem;
 }
@@ -643,7 +644,7 @@ section {
     position: absolute;
     top: 100%;
     right: -100%;
-    background: #fff;
+    background: var(--white);
     width: 30rem;
     height: calc(100vh -9.5rem);
   }
@@ -676,9 +677,6 @@ section {
   }
   .home .content p {
     font-size: 1.5rem;
-  }
-
-  .about .row .content .btn {
   }
 }
 
