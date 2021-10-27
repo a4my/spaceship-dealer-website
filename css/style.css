@@ -308,6 +308,41 @@ section {
   line-height: 1.8;
 }
 
+/*SHIPS SECTION*/
+
+.ships .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.ships .box-container .box {
+  padding: 5rem;
+  text-align: center;
+  border: var(--border);
+}
+
+.ships .box-container .box img {
+  height: 15rem;
+}
+
+.ships .box-container .box h3 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.ships .box-container .box .price {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+.ships .box-container .box .price span {
+  font-size: 1.9rem;
+  text-decoration: line-through;
+}
+
 /* MEDIA QUERIES*/
 @media (max-width: 991px) {
   html {
