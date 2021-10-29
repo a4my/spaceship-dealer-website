@@ -15,7 +15,7 @@ This project has parts that are mainly hard-coded and you cannot add item in you
 My goal with this project was to build my own project from scratch to practice HTML, CSS and a bit of JavScript.
 
 ## Extra learning ✔
-I also wanted to practice some of the common fundamentals of HTML and CSS such has full responsivity, grid layout and adding a page loader.
+I also wanted to practice some of the common fundamentals of HTML and CSS such as full responsivity, grid layout and adding a page loader.
 
 ## Responsiveness 📱
 This project is responsive on any devices.
