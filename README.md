@@ -2,7 +2,7 @@
 
 This repository contains the files of one of my silly projects: A spaceship dealer website! 😁 This project is supposed to be a fictional website for a space ship dealer set in the year 2122.
 
-This project has parts that are mainly hard-coded and you cannot add item in your cart and proceed with payment. This is more of an HTML / CSS type of project.
+This project has parts that are mainly hard-coded and you cannot add item in your cart and proceed with payment. This is more of a HTML / CSS type of project.
 
 
 ## Demo 🖥 [live preview](https://a4my.github.io/spaceship-dealer-website/)
@@ -12,7 +12,7 @@ This project has parts that are mainly hard-coded and you cannot add item in you
 ![site image](https://i.imgur.com/qGzlzbq.jpg)
 
 ## What I used 🔨
-My goal with this project was to build my own project from scratch to practice HTML, CSS and a bit of JavScript.
+My goal with this project was to build my own project from scratch to practice HTML, CSS and a bit of JavaaScript.
 
 ## Extra learning ✔
 I also wanted to practice some of the common fundamentals of HTML and CSS such as full responsivity, grid layout and adding a page loader.
