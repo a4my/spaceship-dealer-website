@@ -12,7 +12,7 @@ This project has parts that are mainly hard-coded and you cannot add item in you
 ![site image](https://i.imgur.com/qGzlzbq.jpg)
 
 ## What I used 🔨
-My goal with this project was to build my own project from scratch to practice HTML, CSS and a bit of JavaaScript.
+My goal with this project was to build my own project from scratch to practice HTML, CSS and a bit of JavaScript.
 
 ## Extra learning ✔
 I also wanted to practice some of the common fundamentals of HTML and CSS such as full responsivity, grid layout and adding a page loader.
